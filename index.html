@@ -1,0 +1,72 @@
+﻿<!DOCTYPE HTML>
+<!-- html manifest="game-goks-42.appcache.txt" -->
+<html>
+<head>
+    <title>goks</title>
+    <meta charset='utf-8' />
+
+    <style>
+        body {
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+        }
+
+        table, th, td {
+            border: 2px solid #999999;
+            text-align: center;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+
+        h3, pre {
+            margin: 40px;
+            text-align: left;
+        }
+
+    </style>
+
+    <script src="game-goks-47-main.js"></script>
+    <script src="game-goks-47-main-PlayMouse.js"></script>
+    <script src="game-goks-47-main-PlayComp.js"></script>
+    <script src="game-goks-47-config.js"></script>
+    <script src="game-goks-47-model.js"></script>
+    <script src="game-goks-47-model-CheckGameOver.js"></script>
+    <script src="game-goks-47-model-CheckSetLines.js"></script>
+    <script src="game-goks-47-model-CheckNextSteps.js"></script>
+    <script src="game-goks-47-canva.js"></script>
+    <script src="game-goks-47-lang.js"></script>
+    <script src="game-goks-47-ui.js"></script>
+
+</head>
+
+<body onload="APELSERG.MAIN.OnLoad(true)">
+
+    GOKS 47 BOTS
+
+    <input id="APELSERG_InputSettings" type='button' value='' onclick='APELSERG.UI.ShowSettings();' />
+    <!-- input id="APELSERG_InputPoints" type='button' value='' onclick='APELSERG.UI.ShowPoints();' /-->
+    <input id="APELSERG_InputHelp" type='button' value='' onclick='APELSERG.UI.ShowHelp();' />
+    <input id="APELSERG_InputStartStop" type='button' value='' onclick='APELSERG.MAIN.StartStop();' />
+
+    <hr />
+
+    <div id='APELSERG_DivSettings'></div>
+    <!-- div id='APELSERG_DivPoints'></div -->
+    <div id='APELSERG_DivHelp'></div>
+
+    <div id='APELSERG_DivCanvas'>
+        <canvas id="APELSERG_CanvasGoks"></canvas>
+    </div>
+
+
+    <hr />
+
+   apelserg 2017
+
+</body>
+</html>
