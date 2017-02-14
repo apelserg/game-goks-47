@@ -13,7 +13,11 @@
 
 Демо: http://www.apelserg.ru/open-html5-games/game-goks-47/game-goks-47.htm
 
-В интернете есть и другие реализации. Пример с сильным игровым алгоритмом: http://www.artemlopatin.ru/gomoku/
+<br/>
+
+В интернете есть и другие реализации.
+
+Пример с сильным игровым алгоритмом: http://www.artemlopatin.ru/gomoku/
 
 <br/>
 
